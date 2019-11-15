@@ -1,0 +1,49 @@
+{
+  "name": "infosys",
+  "version": "0.0.1",
+  "author": "BV Jin",
+  "dependencies": {
+    "antd": "^3.16.2",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "js-base64": "^2.5.1",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.8.2",
+    "rc-banner-anim": "^2.2.5",
+    "rc-tween-one": "^2.4.0",
+    "react": "^16.8.6",
+    "react-cookie": "^4.0.0",
+    "react-dom": "^16.8.6",
+    "react-horizontal-scrolling-menu": "^0.5.7",
+    "react-image-gallery": "^0.9.1",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "react-scroll-horizontal": "^1.6.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./src react-scripts start",
+    "build": "NODE_PATH=./src react-scripts build",
+    "test": "NODE_PATH=./src react-scripts test",
+    "eject": "NODE_PATH=./src react-scripts eject"
+  },
+  "dokku": {
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
