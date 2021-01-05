@@ -4,7 +4,7 @@
   "author": "BV Jin",
   "dependencies": {
     "antd": "^3.16.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.11.0",
     "js-base64": "^2.5.1",
     "moment": "^2.24.0",
